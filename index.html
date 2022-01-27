@@ -9,62 +9,127 @@
 </head>
 <body>
     <div id="main-container">
-        <h1 id="title">2022 Favorite Anime Survey Form</h1>
+        <header id="header">
+        <h1 id="title">2022 Coding Career Survey Form</h1>
         <p id="description">Thank you for taking the time to help us improve the platform</p>
-    
+        </header>
         <form id="survey-form" action="/url-where-you-want-to-submit-form-data">
             
             <div id="info">
             <a>Name</a>
-            <input id="name" placeholder="Type your name" type="text" maxlength="20" required></input>
-            <br>
-            <a>Email</a>
-            <input id="email" placeholder="Type your email" type="email"required></input>
+            <br><input id="name" placeholder="Type your name" type="text" maxlength="20" required></input>
+            <br><a>Email</a>
+            <br><input id="email" placeholder="Type your Email" type="email"required></input>
             <br><a>Phone Number</a>
-            <input id="number" placeholder="Type your number" type="number" required></input>
+            <br><input id="number" placeholder="Type your number" type="number" required></input>
             </div>
 
 
             <div id="describes">
             <p>which option best describes your current role?</p>
-            <select id="dropdown" name="choices">
-                <option value="haha">hahahaha</option>
-                <option value="nahnah">nahnah</option>
-                <option value="yaya">yaya</option>
+            <select id="dropdown"  name="choices">
+                <option value="student">Student</option>
+                <option value="ftj">Full Time Job</option>
+                <option value="ftl">Full Time Learner</option>
+                <option value="pnts">Prefer Not To Say</option>
+                <option value="other">Other</option>
 
             </select>
             </div>
 
 
-            <div id="recommendation">"
-            <p>Would you recommend this anime to a friend?</p>
+            <div id="recommendation">
+            <p>Would you recommend coding to a friend?</p>
             <label for="definitely">
-                <input id="definitely" value="definitely" type="radio" name="options" checked>recommend </input>
+                <input id="definitely" value="definitely" type="radio" name="options" checked>Definitely</input>
             </label>
             <br><label for="maybe">
-                <input id="maybe" value="definitely" type="radio" name="options">maybe</input>
+                <input id="maybe" value="definitely" type="radio" name="options">Maybe</input>
             </label>
             <br><label for="not-sure">
-                <input id="not-sure" value="not-sure" type="radio" name="options">not sure</input>
+                <input id="not-sure" value="not-sure" type="radio" name="options">Not sure</input>
             </label>
             </div>
-            
+
+
+
+
+
+            <div id="favorites">
+                <p>which option best describes your current role?</p>
+                <select id="dropdown"  name="choices2">
+                    <option value="challenges">Challenges</option>
+                    <option value="projects">Projects</option>
+                    <option value="community">Communtiy</option>
+                    <option value="open">Open Source</option>
+    
+                </select>
+            </div>
+
+
+
+
+
+
             <div id="improve">
-            <p> what would you like to watch next? ( Check all that apply)</p>
-            <label for="naruto">
-                <input id="naruto" value="naruto" type="checkbox" name="anime" >naruto</input>
+            <p>What Would you like to see improved? ( Check all that apply)</p>
+            <label for="frontend">
+                <input id="frontend" value="frontend" type="checkbox" name="anime">Front-End Projects</input>
             </label>
-            <br><label for="dragon-ball">
-                <input id="dragon-ball" value="dragon-ball" type="checkbox" name="anime">dragon ball series</input>
+            <br><label for="backend">
+                <input id="backend" value="backend" type="checkbox" name="anime">Back-End Proejcts</input>
             </label>
-            <br><label for="juju-kaisen">
-                <input id="juju-kasien" value="juju-kaisen" type="checkbox" name="anime" checked>juju kaisen</input>
+            <br><label for="datavisual">
+                <input id="datavisual" value="datavisual" type="checkbox" name="anime">Data Visualization</input>
             </label>
+            <br><label for="challenges">
+                <input id="challenges" value="challenges" type="checkbox" name="anime">Challenges</input>
+            </label>
+            <br><label for="opensourcecom">
+                <input id="opensourcecom" value="opensourcecom" type="checkbox" name="anime">Open Source Community</input>
+            </label>
+            <br><label for="githelproom">
+                <input id="githelproom" value="githelproom" type="checkbox" name="anime">Gitter help rooms</input>
+            </label>
+            <br><label for="videos">
+                <input id="videos" value="videos" type="checkbox" name="anime">Videos</input>
+            </label>
+            <br><label for="citymeetup">
+                <input id="citymeetup" value="citymeetup" type="checkbox" name="anime">City Meetups</input>
+            </label>
+            <br><label for="wiki">
+                <input id="wiki" value="wiki" type="checkbox" name="anime">Wiki</input>
+            </label>
+            <br><label for="forum">
+                <input id="forum" value="forum" type="checkbox" name="anime">Forum</input>
+            </label>
+            <br><label for="additionalcourses">
+                <input id="additionalcourses" value="additionalcourses" type="checkbox" name="anime">Additional Courses</input>
+            </label>
+
+
+
+
+
+
+
+
+
             </div>
             
+
+
+
+
+
+
+
+
+
+
             <div id="commentbox">
             <p>Any comments or suggestions?</p>
-            <textarea name="comment" id="comment" rows="10" cols="80"></textarea>
+            <textarea name="comment" id="comment" rows="10" cols="70"></textarea>
             </div>
             
             <br>

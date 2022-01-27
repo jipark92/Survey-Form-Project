@@ -1,5 +1,23 @@
+body{
+    background-image: url("coding.jpg") ;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    
+}
+
+#header{
+    border: 5px solid red;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 #main-container {
-    height: 900px;
+    color:white;
+    height: 90vh;
     width: 900px;
     background-color: gray;
     position: absolute;
@@ -10,5 +28,45 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    opacity:
 
+}
+#survey-form{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: green;
+    border: 5px solid black;
+    opacity:
+}
+#title{
+
+}
+
+#name {
+    width: 500px;
+    height: 30px;
+    border-radius: 25px;
+    margin: 5px;
+}
+#email {
+    width: 500px;
+    height: 30px;
+    border-radius: 25px;
+    margin: 5px;
+}
+#number {
+    width: 500px;
+    height: 30px;
+    border-radius: 25px;
+    margin: 5px;
+}
+
+#dropdown{
+    width: 500px;
+}
+
+#commentbox{
+    margin: 25px;
 }
