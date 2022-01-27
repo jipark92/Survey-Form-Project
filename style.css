@@ -3,6 +3,7 @@ body{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    
     height: 100vh;
     
 }
@@ -18,8 +19,8 @@ body{
 }
 
 #main-container {
-    color:black;
-    height: 100vh;
+    color:white;
+    height: 97vh;
     width: 900px;
     background-color: gray;
     position: absolute;
@@ -33,18 +34,16 @@ body{
     opacity: 0.9;
     font-size: 20px;
     padding: 20px;
-    box-shadow: 0 11px 20px yellow;
-    
-    
-
+    box-shadow: 0 5px 20px yellow;
+  
 }
 #survey-form{
     display:flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 25px;
-    border: 5px double rgb(136, 182, 45);
+    border: 5px double darkgray;
+    padding: 5px;
     
 }
 
@@ -75,6 +74,9 @@ body{
     margin: 25px;
 }
 
+#comment{
+    border:3px solid rgb(136, 182, 45) ;
+}
 
 #dropdown{
     height: 35px;
