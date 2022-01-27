@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Survey Form Project</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div id="main-container">
@@ -12,14 +13,19 @@
         <p id="description">Thank you for taking the time to help us improve the platform</p>
     
         <form id="survey-form" action="/url-where-you-want-to-submit-form-data">
+            
+            <div id="info">
             <a>Name</a>
             <input id="name" placeholder="Type your name" type="text" maxlength="20" required></input>
+            <br>
             <a>Email</a>
             <input id="email" placeholder="Type your email" type="email"required></input>
-            <a>Age</a>
+            <br><a>Phone Number</a>
             <input id="number" placeholder="Type your number" type="number" required></input>
+            </div>
 
 
+            <div id="describes">
             <p>which option best describes your current role?</p>
             <select id="dropdown" name="choices">
                 <option value="haha">hahahaha</option>
@@ -27,43 +33,44 @@
                 <option value="yaya">yaya</option>
 
             </select>
+            </div>
 
 
-            
+            <div id="recommendation">"
             <p>Would you recommend this anime to a friend?</p>
             <label for="definitely">
                 <input id="definitely" value="definitely" type="radio" name="options" checked>recommend </input>
             </label>
-            <label for="maybe">
+            <br><label for="maybe">
                 <input id="maybe" value="definitely" type="radio" name="options">maybe</input>
             </label>
-            <label for="not-sure">
+            <br><label for="not-sure">
                 <input id="not-sure" value="not-sure" type="radio" name="options">not sure</input>
             </label>
+            </div>
             
-
+            <div id="improve">
             <p> what would you like to watch next? ( Check all that apply)</p>
             <label for="naruto">
                 <input id="naruto" value="naruto" type="checkbox" name="anime" >naruto</input>
             </label>
-            <label for="dragon-ball">
+            <br><label for="dragon-ball">
                 <input id="dragon-ball" value="dragon-ball" type="checkbox" name="anime">dragon ball series</input>
             </label>
-            <label for="juju-kaisen">
+            <br><label for="juju-kaisen">
                 <input id="juju-kasien" value="juju-kaisen" type="checkbox" name="anime" checked>juju kaisen</input>
             </label>
+            </div>
             
+            <div id="commentbox">
             <p>Any comments or suggestions?</p>
-            <textarea name="comment" id="comment" rows="10" cols="40"></textarea>
+            <textarea name="comment" id="comment" rows="10" cols="80"></textarea>
+            </div>
             
             <br>
-            <button id="submit" type="submit">Subtmit</button>
-
-
-
-
-
-
+            <div id="submitbtn">
+            <button id="submit" type="submit">Submit</button>
+            </div>
 
         </form>
     </div>
