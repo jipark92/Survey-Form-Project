@@ -8,16 +8,17 @@ body{
 }
 
 #header{
-    border: 5px solid red;
+    
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding-bottom: 25px;
 }
 
 #main-container {
-    color:white;
-    height: 90vh;
+    color:black;
+    height: 100vh;
     width: 900px;
     background-color: gray;
     position: absolute;
@@ -28,7 +29,9 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    opacity:
+    opacity: 0.9;
+    font-size: 20px;
+    padding: 20px;
 
 }
 #survey-form{
@@ -36,37 +39,70 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: green;
-    border: 5px solid black;
-    opacity:
+    padding: 25px;
+    border: 5px double rgb(167, 250, 0);
+    
 }
 #title{
 
 }
 
+
+
 #name {
     width: 500px;
     height: 30px;
     border-radius: 25px;
-    margin: 5px;
+    margin: 2px;
+    border-color: blue;
 }
 #email {
     width: 500px;
     height: 30px;
     border-radius: 25px;
-    margin: 5px;
+    margin: 2px;
+    border-color: blue;
 }
 #number {
     width: 500px;
     height: 30px;
     border-radius: 25px;
-    margin: 5px;
-}
-
-#dropdown{
-    width: 500px;
+    margin: 2px;
+    border-color: blue;
 }
 
 #commentbox{
     margin: 25px;
+}
+
+#improve{
+    
+}
+#dropdown{
+    height: 35px;
+    border-radius: 20px;
+    border-color: red;
+    width: 500px;
+}
+
+#dropdown2{
+    height: 35px;
+    border-radius: 20px;
+    border-color: purple;
+    width: 500px;
+}
+
+#improve{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    
+}
+
+#submit{
+    width: 500px;
+    height: 50px;
+    background-color: yellowgreen;
+    border-radius: 20px;
+    font-size: 18px;
 }
