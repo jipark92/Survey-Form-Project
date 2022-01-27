@@ -13,7 +13,8 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding-bottom: 25px;
+    text-shadow: 0 0 0.125em hsl(0, 0%, 100%), 0 0 0.25em currentColor;
+    
 }
 
 #main-container {
@@ -32,6 +33,9 @@ body{
     opacity: 0.9;
     font-size: 20px;
     padding: 20px;
+    box-shadow: 0 11px 20px yellow;
+    
+    
 
 }
 #survey-form{
@@ -40,13 +44,9 @@ body{
     justify-content: center;
     align-items: center;
     padding: 25px;
-    border: 5px double rgb(167, 250, 0);
+    border: 5px double rgb(136, 182, 45);
     
 }
-#title{
-
-}
-
 
 
 #name {
@@ -75,21 +75,23 @@ body{
     margin: 25px;
 }
 
-#improve{
-    
-}
+
 #dropdown{
     height: 35px;
     border-radius: 20px;
     border-color: red;
     width: 500px;
+    font-size: 16px;
+
 }
+
 
 #dropdown2{
     height: 35px;
     border-radius: 20px;
     border-color: purple;
     width: 500px;
+    font-size: 16px;
 }
 
 #improve{
