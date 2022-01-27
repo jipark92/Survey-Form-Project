@@ -13,11 +13,21 @@
     
         <form id="survey-form" action="/url-where-you-want-to-submit-form-data">
             <a>Name</a>
-            <input id="name" placeholder="Type your name" type="text" required></input>
+            <input id="name" placeholder="Type your name" type="text" maxlength="20" required></input>
             <a>Email</a>
-            <input id="email" placeholder="Type your email" type="text"required></input>
+            <input id="email" placeholder="Type your email" type="email"required></input>
             <a>Age</a>
-            <input id="number" placeholder="Type your number" type="text"required></input>
+            <input id="number" placeholder="Type your number" type="number" required></input>
+
+
+            <p>which option best describes your current role?</p>
+            <select id="dropdown" name="choices">
+                <option value="haha">hahahaha</option>
+                <option value="nahnah">nahnah</option>
+                <option value="yaya">yaya</option>
+
+            </select>
+
 
             
             <p>Would you recommend this anime to a friend?</p>
@@ -42,6 +52,16 @@
             <label for="juju-kaisen">
                 <input id="juju-kasien" value="juju-kaisen" type="checkbox" name="anime" checked>juju kaisen</input>
             </label>
+            
+            <p>Any comments or suggestions?</p>
+            <textarea name="comment" id="comment" rows="10" cols="40"></textarea>
+            
+            <br>
+            <button id="submit" type="submit">Subtmit</button>
+
+
+
+
 
 
 
