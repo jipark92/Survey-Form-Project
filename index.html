@@ -13,15 +13,35 @@
     
         <form id="survey-form" action="/url-where-you-want-to-submit-form-data">
             <a>Name</a>
-            <input id="name" placeholder="Type your name"></input>
+            <input id="name" placeholder="Type your name" type="text" required></input>
             <a>Email</a>
-            <input id="email" placeholder="Type your email"></input>
+            <input id="email" placeholder="Type your email" type="text"required></input>
             <a>Age</a>
-            <input id="number" placeholder="Type your number"></input>
+            <input id="number" placeholder="Type your number" type="text"required></input>
 
             
-            <a>Which genre best describes your favorite anime?</a>
-            //drop down id="dropdown"
+            <p>Would you recommend this anime to a friend?</p>
+            <label for="definitely">
+                <input id="definitely" value="definitely" type="radio" name="options" checked>recommend </input>
+            </label>
+            <label for="maybe">
+                <input id="maybe" value="definitely" type="radio" name="options">maybe</input>
+            </label>
+            <label for="not-sure">
+                <input id="not-sure" value="not-sure" type="radio" name="options">not sure</input>
+            </label>
+            
+
+            <p> what would you like to watch next? ( Check all that apply)</p>
+            <label for="naruto">
+                <input id="naruto" value="naruto" type="checkbox" name="anime" >naruto</input>
+            </label>
+            <label for="dragon-ball">
+                <input id="dragon-ball" value="dragon-ball" type="checkbox" name="anime">dragon ball series</input>
+            </label>
+            <label for="juju-kaisen">
+                <input id="juju-kasien" value="juju-kaisen" type="checkbox" name="anime" checked>juju kaisen</input>
+            </label>
 
 
 
