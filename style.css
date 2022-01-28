@@ -1,7 +1,7 @@
 body{
     background-image: url("coding.jpg") ;
     background-position: center;
-    background-repeat: no-repeat;
+    
     background-size: cover;
     
     height: 100vh;
@@ -9,7 +9,7 @@ body{
 }
 
 #header{
-    
+    position: relative;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -20,11 +20,11 @@ body{
 
 #main-container {
     color:white;
-    height: 97vh;
+    height: 1500px;
     width: 900px;
     background-color: gray;
-    position: absolute;
-    top: 50%;
+    position: relative;
+    top: 55%;
     left: 50%;
     transform: translate(-50%,-50%);
     display: flex;
@@ -35,15 +35,19 @@ body{
     font-size: 20px;
     padding: 20px;
     box-shadow: 0 5px 20px yellow;
-  
+    
+    
 }
 #survey-form{
     display:flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    border: 5px double darkgray;
     padding: 5px;
+    height: auto;
+    position: relative;
+    
+    
     
 }
 
@@ -72,6 +76,7 @@ body{
 
 #commentbox{
     margin: 25px;
+    
 }
 
 #comment{
